@@ -134,7 +134,63 @@ class _MyHomePageState extends State<MyHomePage> {
                 Container(
                   width: 1000,
                   child: Table(
+                    border : TableBorder.all(),
                     children: [
+
+                      TableRow(
+                          children: [
+                            TableCell(
+                              child: Container(
+                                width: 50.0,
+                                height: 100.0,
+                                child: Column(children: [
+                                  Container(
+                                    height: 50.0,
+                                    child:Center(child: Text("1")),
+                                  ),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                        border: Border.all()
+                                    ),
+                                    height: 50.0,
+                                    child:Center(child: Text("1")),
+                                  )
+                                ],),
+                              ),
+                            ),
+                            TableCell(
+                              child: Container(
+                                width: 50.0,
+                                height: 100.0,
+                                child: Column(children: [
+                                  Container(
+                                    height: 50.0,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: Colors.black87)
+                                    ),
+                                    child:Center(child: Text("1")),
+                                  ),
+                                  Container(
+                                    height: 50.0,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: Colors.black87)
+                                    ),
+                                    child:Center(child: Text("1")),
+                                  )
+                                ],),
+                              ),
+                            ),
+                            TableCell(
+                              child: Container(
+                                width: 50.0,
+                                height: 100.0,
+                                decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.black87)
+                                ),
+                                child:Center(child: Text("1")),
+                              ),
+                            )
+                          ]),
                       TableRow(
                           children: [
                             TableCell(
@@ -145,34 +201,21 @@ class _MyHomePageState extends State<MyHomePage> {
                                   Container(
                                     height: 50.0,
                                     decoration: BoxDecoration(
-                                        border: Border.all(color: Colors.black)
+                                        border: Border.all(color: Colors.black87)
                                     ),
                                   ),
                                   Container(
                                     height: 50.0,
                                     decoration: BoxDecoration(
-                                        border: Border.all(color: Colors.black)
+                                        border: Border.all(color: Colors.black87)
                                     ),
                                   )
                                 ],),
                               ),
                             ),
-                            TableCell(
-                              child: Container(
-                                width: 50.0,
-                                height: 100.0,
-                                decoration: BoxDecoration(
-                                    border: Border.all(color: Colors.black)
-                                ),
-                                child: Text("2"),
-                              ),
-                            )
-                          ]),
-                      TableRow(
-                          children: [
                             Container(
                               decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.black)
+                                  border: Border.all(color: Colors.black87)
                               ),
                               width: 50.0,
                               height: 50.0,
@@ -180,7 +223,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.black)
+                                  border: Border.all(color: Colors.black87)
                               ),
                               width: 50.0,
                               height: 50.0,
@@ -189,17 +232,37 @@ class _MyHomePageState extends State<MyHomePage> {
                           ]),
                       TableRow(
                           children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.black)
+                            TableCell(
+                              child: Container(
+                                width: 50.0,
+                                height: 100.0,
+                                child: Column(children: [
+                                  Container(
+                                    height: 50.0,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: Colors.black87)
+                                    ),
+                                  ),
+                                  Container(
+                                    height: 50.0,
+                                    decoration: BoxDecoration(
+                                        border: Border.all(color: Colors.black87)
+                                    ),
+                                  )
+                                ],),
                               ),
-                              width: 50.0,
-                              height: 50.0,
-                              child: Text("7"),
                             ),
                             Container(
                               decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.black)
+                                  border: Border.all(color: Colors.black87)
+                              ),
+                              width: 50.0,
+                              height: 50.0,
+                              child:  Text("7")
+                            ),
+                            Container(
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.black87)
                               ),
                               width: 50.0,
                               height: 50.0,
